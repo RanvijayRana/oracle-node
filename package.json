@@ -1,0 +1,22 @@
+{
+  "name": "oracle-node",
+  "version": "1.0.0",
+  "description": "node api with oracle and mocha",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha || true --compilers js:babel-core/register",
+    "start": "nodemon index.js"
+  },
+  "author": "ranvijay",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.19.2",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "oracledb": "^3.0.1",
+    "supertest": "^4.0.0"
+  }
+}
